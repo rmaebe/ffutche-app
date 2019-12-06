@@ -1,0 +1,259 @@
+<div>
+                            <label for="contact_username">User Name:</label>
+                            <input type="text" id="contact_username" name="contact_username" ></input>
+
+                        </div>
+                        <div>
+                          <label for="fname">First Name:</label>
+                          <input type="text" id="fname" name="fname" ></input>
+
+                        </div>
+                        <div>
+                            <label for="middlename">Middle Name:</label>
+                            <input type="text" id="middlename" name="middlename"></input>
+
+                        </div>
+                        <div>
+                          <label for="contact_lname">Last Name:</label>
+                          <input type="text" id="contact_lname" name="contact_lname" ></input>
+
+                        </div>
+                        <div>
+                            <label for="donor_gender">Gender:</label>
+                            <input type="text" id="donor_gender" name="donor_gender" ></input>
+
+                        </div>
+                        <div>
+                            <label for="prime_phone">Primary Phone:</label>
+                            <input type="tel" id="prime_phone" name="prime_phone" ></input>
+
+                        </div>
+                        <div>
+                            <label for="second_phone">Secondary Phone:</label>
+                            <input type="tel" id="second_phone" name="second_phone" ></input>
+
+                        </div>
+                        <div>
+                            <label for="contact_street">Street Address:</label>
+                            <input type="text" id="contact_street" name="contact_street"></input>
+
+                        </div>
+                        <div>
+                            <label for="contact_address">Address:</label>
+                            <input type="text" id="contact_address" name="contact_address"></input>
+
+                        </div>
+                        <div>
+                            <label for="email">Email Address:</label>
+                            <input type="text" id="email" name="email" ></input>
+
+                        </div>
+
+
+                        APPLICANTT
+
+                        <div>
+                            <label for="contact_username">User Name:</label>
+                            <input type="text" id="contact_username" name="contact_username" pattern=".{1,8}" placeholder="Required" title="Must be at most 8 characters long"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                          <label for="fname">First Name:</label>
+                          <input type="text" id="fname" name="fname"></input>
+                        </div>
+                        <div>
+                            <label for="middlename">Middle Name:</label>
+                            <input type="text" id="middlename" name="middlename"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                          <label for="contact_lname">Last Name:</label>
+                          <input type="text" id="contact_lname" name="contact_lname" placeholder="Required" pattern=".{1,}" title="Last name is required"></input>
+                          <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="contact_gender">Gender:</label>
+                            <input type="text" id="contact_gender" name="contact_gender" placeholder="Required" pattern=".{1,}" title="Please enter Male or Female"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="prime_phone">Cell Phone:</label>
+                             <input type="tel" id="prime_phone" name="prime_phone" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no ()-"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="second_phone">Cell Phone:</label>
+                            <input type="tel" id="second_phone" name="second_phone" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no ()-"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="contact_street">Street Address:</label>
+                            <input type="text" id="contact_street" name="contact_street" placeholder="Required" pattern=".{1,}" title="Please enter a valid address"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="contact_address">Address:</label>
+                            <input type="text" id="contact_address" name="contact_address" placeholder="Required" pattern=".{1,}" title="Please enter a valid City"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="dob_day">Date of Birth Day:</label>
+                            <input type="test" id="dob_day" name="dob_day" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="dob_month">Date of Birth Month:</label>
+                            <input type="test" id="dob_month" name="dob_month" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="dob_year">Date of Birth Year:</label>
+                            <input type="test" id="dob_year" name="dob_year" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="city_of_birth">City of Birth:</label>
+                            <input type="test" id="city_of_birth" name="city_of_birth" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="state_of_birth">State of Birth:</label>
+                            <input type="test" id="state_of_birth" name="state_of_birth" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="country_of_birth">Country of Birth:</label>
+                            <input type="test" id="country_of_birth" name="country_of_birth" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="maritial_status">Martial Status:</label>
+                            <select name="maritial_status" form="contact">
+                                <option value="never_married">Never Married</option>
+                                <option value="married">Married</option>
+                                <option value="seperated">Seperated</option>
+                                <option value="divorced">Divorced</option>
+                                <option value="widow">Widow</option>
+                              </select>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <h4>Elementary and Primary School Education</h4>
+                        <div>
+                            <label for="ed_year">Year Completed:</label>
+                            <input type="test" id="ed_year" name="ed_year" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="ed_school">School Name:</label>
+                            <input type="test" id="ed_school" name="ed_school" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="ed_city">School City:</label>
+                            <input type="test" id="ed_city" name="ed_city" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="ed_country">School Country:</label>
+                            <input type="test" id="ed_country" name="ed_country" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="ed_class">School Class:</label>
+                            <input type="test" id="ed_class" name="ed_class" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="ed_grade">School Grade:</label>
+                            <input type="test" id="ed_grade" name="ed_grade" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="ed_rank">School Rank:</label>
+                            <input type="test" id="ed_rank" name="ed_rank" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="ed_degree">School Degree:</label>
+                            <input type="test" id="ed_degree" name="ed_degree" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <h4>Annual Budget Estimation: Expense</h4>
+                        <div>
+                            <label for="tuition">Tuition Amount:</label>
+                            <input type="test" id="tuition" name="tuition" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="books">Books Amount:</label>
+                            <input type="test" id="books" name="books" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="books">Books Amount:</label>
+                            <input type="test" id="books" name="books" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="furniture">Furniture Amount:</label>
+                            <input type="test" id="furniture" name="furniture" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="transport">Transport Amount:</label>
+                            <input type="test" id="transport" name="transport" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="clothing">Clothing Amount:</label>
+                            <input type="test" id="clothing" name="clothing" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="recreation">Recreation Amount:</label>
+                            <input type="test" id="recreation" name="recreation" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="exp_other">Other Amount:</label>
+                            <input type="test" id="exp_other" name="exp_other" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="exp_total">Total Expense Amount:</label>
+                            <input type="test" id="exp_total" name="exp_total" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <h4>Annual Budget Estimation: Revenue</h4>
+                        <div>
+                            <label for="parents">Parent Support Amount:</label>
+                            <input type="test" id="parents" name="parents" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="loan">Loan Amount:</label>
+                            <input type="test" id="loan" name="loan" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="break_act">Summer Job Amount:</label>
+                            <input type="test" id="break_act" name="break_act" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="friends">Friends Support Amount:</label>
+                            <input type="test" id="friends" name="friends" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="rev_other">Other Revenue:</label>
+                            <input type="test" id="rev_other" name="rev_other" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+                        <div>
+                            <label for="rev_total">Total Revenue:</label>
+                            <input type="test" id="rev_total" name="rev_total" placeholder="Required" pattern=".{1,}" title="Please enter just the numbers no / or -"></input>
+                            <span class="error">This field is required</span>
+                        </div>
+
+                        <a href='https://www.freecodecamp.org/'><button>Link To freeCodeCamp</button></a>

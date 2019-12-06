@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+* {
+    font-family: 'Times New Roman', Times, serif;  
+    box-sizing:border-box;  
+}
+
+body {
+    background-color: rgb(156, 127, 92);
+}
+
+.navArea {
+    height: auto;
+    padding: 12px;
+    background-color: antiquewhite;
+}
+
+.logo {
+    background-color:antiquewhite;
+    float: left;
+}
+
+.moto {
+    padding-top: 35px;
+    padding-right: 130px;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    color: purple;
+}
+
+.navArea ul {
+    float: right;
+}
+
+.navArea li {
+    display: inline-block;
+    text-align: center;
+}
+
+.navArea a {
+    font-size: 22px;
+    display: inline-block;
+    padding: .5em;
+    color: purple;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+}
+
+.navArea a:hover {
+    background-color:purple;
+    color: aliceblue;
+}
+
+.whats-new {
+    margin:0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    height: auto;
+    background-color: blanchedalmond;
+}
+
+span.updates {
+    font-size: 22px;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 410px;
+    height: 400px;
+    overflow: auto;
+    padding: 5px;
+    border: 2px solid black;    
+    background-color: cadetblue; 
+}
+
+span.updates h3 {
+    font-family: 'Lobster', cursive;
+}
+
+span.events {
+    font-size: 22px;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 410px;
+    height: 400px;
+    overflow: auto;
+    padding: 5px;
+    border: 2px solid black;    
+    background-color: darksalmon;
+}
+
+span.events h3 {
+    font-family: 'Lobster', cursive;
+}
+
+span.funds {
+    font-size: 22px;
+    margin: 0 auto;
+    position: relative;
+    margin-left: auto;
+    display: inline-block;
+    text-align: center;
+    width: 410px;
+    height: 400px;
+    overflow: auto;
+    padding: 5px;
+    border: 2px solid black;    
+    background-color: cadetblue; 
+}
+
+span.funds h3 {
+    font-family: 'Lobster', cursive;
+}
+
+.bottom {
+    width: 100%;
+    text-align:center;
+    padding: 30px;
+    height: auto;
+}
+
+.ourinfo {
+    float: left;
+    width:200px;
+    height: auto;
+    font-size: 12px;
+    text-align: left;
+}
+
+.links {
+    margin: 0 auto;
+    display: inline-block;
+    width:200px;
+    height: auto;
+    font-size: 12px;
+}
+
+.links ul {
+    text-align: center;
+}
+
+.links li {
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.links a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+.links2 {
+    float: right;
+    width:200px;
+    height: auto;
+    font-size: 15px;
+}
+
+.link2s ul {
+    float: right;
+}
+
+.links2 li {
+    text-align: right;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.links2 a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.site {
+    color: black;
+    width: 100%;
+    text-align:center;
+    padding: 20px;
+    height: auto;
+}
+
+.slideshow-area {
+    padding-top: 25px;
+    background-color: cornsilk;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.videoarea {
+    padding: 15px;
+    background-color: cornsilk;
+    text-align: center;
+}
+
+.videoarea h2 {
+    font-family: 'Lobster', cursive;
+    color: purple;
+}
+video {
+    width: 100%;
+    height: auto;
+  }
+
+.about-us {
+    font-size: 22px;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    height: auto;
+    overflow: auto;
+    padding: 10px;
+    border: 2px solid black;    
+    background-color: cadetblue; 
+}
+
+.about-us h3{
+    font-family: 'Lobster', cursive;
+}
+
+.picarea {
+    padding: 15px;
+    background-color: cornsilk;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+.picarea h2 {
+    font-family: 'Lobster', cursive;
+    color: purple;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+  
+div.gallery:hover {
+    border: 1px solid #777;
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: purple;
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+  
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+}
+  
+@media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+}
+  
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

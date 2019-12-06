@@ -1,0 +1,103 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maebe Foundation</title>
+        <link rel="stylesheet" href="{% static 'Style.css' %}">
+    </head>
+    <body>
+        <header class="navArea">
+                <a href="Website.html"><img src="https://i.ibb.co/cQtkPYs/Website-Logo1.png" width="150"></a>
+           <ul>
+                <li class="moto">Bringing our furry friends home</li>
+                <li><a href="">Our Work</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="scholarships.html">Scholarships</a></li>
+                <li><a href="Signin.html">Sign In</a></li>
+                <li><a href="JoinUs.html">Register</a></li>
+            </ul>
+        </header>
+        <section class="slideshow-area">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                        <img src="https://greenlandvet.com/wp-content/uploads/2017/02/dogcatcare1.jpg" style="width:97%">
+            </div>
+            <div class="mySlides fade"><img src="https://i.pinimg.com/originals/1d/c9/ca/1dc9caf8c7ede4c33156bbcaa5edbaba.jpg" style="width:90%">
+            </div>
+            <div class="mySlides fade"><img src="https://media.mnn.com/assets/images/2017/11/german_shepherd_staring_kitten.jpg.653x0_q80_crop-smart.jpg" style="width:90.5%">
+            </div>
+        </div>
+      <br>
+    </section>
+    <section class='whats-new'>
+           <span class="updates">
+                <h3>Updates</h3>
+                    <p>Today has been a great day for the foundation. We were able to raise our first goal of 1500 dollars. </p>
+                    <p>This is a huge step in the right direction in being able to help save our furry friends.</p>
+                    <p>Each donation brings us closer to the end goal of helping to build a new shelter where we can foster these loving animals.</p>
+           </span>
+           <span class="events">
+                <h3>Events</h3>
+                    <p>No upcoming events have been listed but join our news letter to see updates on when events happen!</p>
+           </span>
+           <span class="funds">
+                <h3>Funds</h3>
+                <h3>$1500</h3>
+                    <p>As of August 29th, 2019 we have reached our first goal of $1500!</p>
+                    <p>Our next goal mark is $3000 so if you would like to donate please join our cause and donate!</p>
+            </span>
+    </section>
+    <section class="bottom">
+        <span class="ourinfo">
+            <p><strong>Maebe foundation</strong></p>
+            <p>Address: 4324 E. Pet Lover Rd, Phoenix, AZ 85004</p>
+            <p>Phone: (480) 333-5567</p>
+            <p>Email:<a href="">contact@maebefoundation.com</a></p>
+            <p>Website:<a href="Website.html">Maebefoundation.com</a></p>
+        </span>
+        <span class="links">
+            <ul>
+                <li><a href="">Get Involved</a></li><br>
+                <li><a href="">Blog</a></li><br>
+                <li><a href="webportal.html">Web Portal</a></li><br>
+            </ul>
+        </span>
+        <span class="links2">
+            <ul>
+                <li><a href="">Earnings</a></li><br>
+                <li><a href="">Events</a></li><br>
+                <li><a href="">Support</a></li><br>
+            </ul>
+        </span>
+    </section>
+    <section>
+        <footer class="site">
+            <a href="">Site Map</a>
+            |
+            <a href="">Terms & Conditions</a>
+            |
+            <a href="">Privacy Policy</a>
+            |
+            Copyright &copy; 2019
+        </footer>
+    </section>
+    <script>
+        var slideIndex = 0;
+            showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+                slides[slideIndex-1].style.display = "block";
+                setTimeout(showSlides, 4500); // Change image every 2 seconds
+        }
+    </script>
+    <audio autoplay loop><source src="bensound-pianomoment.mp3" type="audio/mpeg"></audio>
+    </body>
+</html>

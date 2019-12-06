@@ -1,0 +1,165 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maebe Foundation - Web Portal</title>
+        <link rel="stylesheet" href="{% static 'Style.css' %}">
+        <link href="{% static 'jqueryform.css' %}" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="{% static 'jqueryform.js' %}"></script>
+    </head>
+    <body>
+        <header class="navArea">
+                <a href="Website.html"><img src="https://i.ibb.co/cQtkPYs/Website-Logo1.png" width="150"></a>
+            <ul>
+                <li class="moto">Bringing our furry friends home</li>
+                <li><a href="">Our Work</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="scholarships.html">Scholarships</a></li>
+                <li><a href="Signin.html">Sign In</a></li>
+                <li><a href="JoinUs.html">Register</a></li>
+            </ul>
+        <br>
+        </header>
+        <section class="topcontainer">
+        <div class="joinus-container">
+            <h2>Web Portal Forms:</h2>
+                <form id="contact" method="post" action="">
+                        <div>
+                            <label for="donors">Donors:</label>
+                            <input type="text" id="donors" name="donors"></input>
+                        </div>
+                        <h3>Scholarship</h3>
+                        <div>
+                            <label for="scholarship_id">Scholarship Id:</label>
+                            <input type="text" id="scholarship_id" name="scholarship_id"></input>
+                        </div>
+                        <div>
+                          <label for="denom">Denomination:</label>
+                          <input type="text" id="denom" name="denom"></input>
+                        </div>
+                        <div>
+                            <label for="donor_id">Donor Id:</label>
+                            <input type="text" id="donor_id" name="donor_id"></input>
+                        </div>
+                        <div>
+                          <label for="ref_studies">Referred Studies:</label>
+                          <input type="text" id="ref_studies" name="ref_studies"></input> 
+                        </div>
+                        <div>
+                            <label for="amount">Amount:</label>
+                            <input type="text" id="amount" name="amount"></input>
+                        </div>
+                        <div>
+                            <label for="academic_year">Academic Year:</label>
+                            <input type="text" id="academic_year" name="academic_year"></input>
+                        </div>
+                        <div>
+                            <label for="description">Description:</label>
+                            <input type="text" id="description" name="description"></input>
+                        </div>
+                        <h3>School</h3>
+                        <div>
+                            <label for="school_id">School Id:</label>
+                            <input type="text" id="school_id" name="school_id"></input>
+                        </div>
+                        <div>
+                            <label for="school_name">School Name:</label>
+                            <input type="text" id="school_name" name="school_name"></input>
+                        </div>
+                        <div>
+                            <label for="school_add">School Address:</label>
+                            <input type="text" id="school_add" name="school_add"></input>
+                        </div>
+                        <div>
+                            <label for="school_city">School City:</label>
+                            <input type="text" id="school_city" name="school_city"></input>
+                        </div>
+                        <div>
+                            <label for="school_coun">School Country:</label>
+                            <input type="text" id="school_coun" name="school_coun"></input>
+                        </div>
+                        <div>
+                            <label for="school_contact_name">School Contact Name:</label>
+                            <input type="text" id="school_contact_name" name="school_contact_name"></input>
+                        </div>
+                        <div>
+                            <label for="school_contact_num1">Contact Number 1:</label>
+                            <input type="text" id="school_contact_num1" name="school_contact_num1"></input>
+                        </div>
+                        <div>
+                            <label for="school_contact_num2">Contact Number 2:</label>
+                            <input type="text" id="school_contact_num2" name="school_contact_num2"></input>
+                        </div>
+                        <h3>School Tuition & Fees</h3>
+                        <div>
+                            <label for="school_fee_id">School Id:</label>
+                            <input type="text" id="school_fee_id" name="school_fee_id"></input>
+                        </div>
+                        <div>
+                            <label for="acad_level">Academic Level:</label>
+                            <input type="text" id="acad_level" name="acad_level"></input>
+                        </div>
+                        <div>
+                            <label for="acad_year">Academic Year:</label>
+                            <input type="text" id="acad_year" name="acad_year"></input>
+                        </div>
+                        <div>
+                            <label for="clothing">Clothing:</label>
+                            <input type="text" id="clothing" name="clothing"></input>
+                        </div>
+                        <div>
+                            <label for="est_furn">Estimated Furniture:</label>
+                            <input type="text" id="est_furn" name="est_furn"></input>
+                        </div>
+                        <div>
+                            <label for="est_book">Estimated Books:</label>
+                            <input type="text" id="est_book" name="est_book"></input>
+                        </div>
+                        <div>
+                            <label for="est_misc">Misc Estimate:</label>
+                            <input type="text" id="est_misc" name="est_misc"></input>
+                        </div>
+                        <div id="contact_submit">
+                            <button type="submit">Submit Forms</button>
+                        </div>
+                </form>
+            </div>
+        </section>
+        <section class="bottom">
+                <span class="ourinfo">
+                    <p><strong>Maebe foundation</strong></p>
+                    <p>Address: 4324 E. Pet Lover Rd, Phoenix, AZ 85004</p>
+                    <p>Phone: (480) 333-5567</p>
+                    <p>Email:<a href="">contact@maebefoundation.com</a></p>
+                    <p>Website:<a href="Website.html">Maebefoundation.com</a></p>
+                </span>
+                <span class="links">
+                    <ul>
+                        <li><a href="">Get Involved</a></li><br>
+                        <li><a href="">Blog</a></li><br>
+                        <li><a href="webportal.html">Web Portal</a></li><br>
+                    </ul>
+                </span>
+                <span class="links2">
+                    <ul>
+                        <li><a href="">Earnings</a></li><br>
+                        <li><a href="">Events</a></li><br>
+                        <li><a href="">Support</a></li><br>
+                    </ul>
+                </span>
+            </section>
+            <section>
+                <footer class="site">
+                    <a href="">Site Map</a>
+                    |
+                    <a href="">Terms & Conditions</a>
+                    |
+                    <a href="">Privacy Policy</a>
+                    |
+                    Copyright &copy; 2019
+                </footer>
+            </section>
+    </body>
+</html>
